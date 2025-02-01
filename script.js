@@ -57,7 +57,7 @@ function moveNoButton() {
     setTimeout(() => {
         wrongAnswer.classList.remove("flash");
         wrongAnswer.classList.add("hidden");
-    }, 1000);
+    }, 1500);
 }
 
 // Function to create multiple "Yes" buttons based on noClickCount
